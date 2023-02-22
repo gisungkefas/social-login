@@ -150,7 +150,7 @@
 
 .line{
   width: 0.5px;
-  height: 70%;
+  height: 50%;
   background-color: lightgrey;
   position: absolute;
   margin: auto;
@@ -172,14 +172,17 @@
 
 .google{
   background-color: orange;
+  cursor: pointer;
 }
 
 .facebook{
   background-color: #507cc0;
+  cursor: pointer;
 }
 
 .github{
   background-color: black;
+  cursor: pointer;
 }
 
 .icon{
@@ -202,10 +205,25 @@ input{
   border: none;
   padding: 15px 20px;
   border-radius: 5px;
+  cursor: pointer;
 }
 
 .loginTitle{
   position: absolute;
   top: 150px;
   color: rgba(128, 128, 128, 0.731);
+}
+
+.uname:hover{
+  cursor: pointer;
+  border-color:#507cc0;
+}
+
+.pword:hover{
+  cursor: pointer;
+  border-color: #507cc0;
+}
+
+.submit:hover{
+    background-color: #507cc0;
 }

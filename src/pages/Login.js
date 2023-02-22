@@ -21,8 +21,8 @@ function Login() {
                 <div className='or'>OR</div>
             </div>
             <div className='right'>
-                <input type='text' placeholder='Username' />
-                <input type='text' placeholder='Password' />
+                <input className='uname' type='text' placeholder='Username' />
+                <input className='pword' type='text' placeholder='Password' />
                 <button className='submit'> Login </button>
             </div>
         </div>
